@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: auto;
+}
+
+header {
+    background-color: black;
+    height: auto;
+    padding: 30px;
+
+
+}
+
+
+
+.sect-align {
+    height: 70vh;
+}
+
+.st-sect {
+    height: 100vh;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul>li {
+    display: inline;
+    margin-left: 20px;
+    padding: 20px;
+    height: 100%;
+    transition: 0.3s ease;
+
+}
+
+li:hover {
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    /* background-color: rgba(128, 128, 128, 0.232); */
+    border-bottom: 2px solid #ffae31;
+    color: #ffae31;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.frst-section {
+    height: 60vh;
+    background-image: url(images/wallpaperflare.com_wallpaper_7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(180deg, black, 70%, rgba(255, 255, 255, 0));
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container h1 {
+    font-size: 4rem;
+    color: white;
+    z-index: 1;
+
+}
+
+.section-container span {
+    color: white;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.orange-txt {
+    color: #ffae31;
+}
+
+.second-section {
+    background-color: black;
+    padding: 100px;
+}
+
+.second-sect-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+
+}
+
+.second-sect-container div>img {
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.4s ease;
+
+}
+
+.second-sect-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.second-sect-container div>img:hover {
+    transform: scale(1.1);
+    margin: 5px;
+}
+
+.fifth-sect {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 200px;
+
+}
+
+.fifth-sect a {
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+
+}
+
+.fifth-sect .last-container {
+    font-size: small;
+    width: 50%;
+    opacity: 0.5;
+    padding-block: 20px;
+    border-top: 2px solid white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
